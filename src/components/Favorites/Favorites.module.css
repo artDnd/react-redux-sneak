@@ -1,0 +1,19 @@
+.favorites {
+	padding: 0 45px;
+	display: flex;
+	.favorites_void {
+		font-size: 30px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		p {
+			font-weight: 700;
+		}
+		img {
+			width: 100px;
+			height: 100px;
+			margin: 20px auto;
+		}
+	}
+}

@@ -1,0 +1,74 @@
+.card {
+	width: 150px;
+	height: 280px;
+	padding: 0 35px;
+	color: black;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid var(--white-gray);
+	border-radius: 40px;
+	overflow: hidden;
+	margin: 20px 20px;
+	transition: all 0.2s linear;
+	position: relative;
+	img {
+		width: 130px;
+		height: 110px;
+		position: relative;
+	}
+	.card_btn {
+		position: absolute;
+		top: 20px;
+		left: 30px;
+		width: 30px;
+		height: 30px;
+		font-size: 15px;
+		padding-top: 3px;
+		background-color: #fff;
+		color: #e0e0e0;
+		border: 1px solid #e0e0e0;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.card_title {
+		margin-bottom: 10px;
+		font-weight: 500;
+	}
+	.card_price {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 10px;
+		span {
+			margin-bottom: 10px;
+			p {
+				font-weight: bold;
+			}
+		}
+		.card_price__btn {
+			width: 30px;
+			height: 30px;
+			color: #8d8d8d;
+			background-color: #fff;
+			border: 1px solid var(--white-gray);
+			border-radius: 10px;
+			cursor: pointer;
+		}
+		.added {
+			background-color: var(--accent);
+			color: #fff;
+			border: none;
+		}
+	}
+	&:hover {
+		box-shadow: 0 14px 30px rgba(0, 0, 0, 0.1);
+	}
+	.added {
+		background-color: var(--accent);
+		color: #fff;
+		border: none;
+	}
+}

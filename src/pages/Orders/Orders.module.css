@@ -1,0 +1,12 @@
+.orders__void {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	font-size: 22px;
+	img {
+		width: 100px;
+		height: 100px;
+	}
+}

@@ -1,0 +1,8 @@
+.cardBlock {
+	padding: 0 45px;
+
+	div {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
